@@ -1,0 +1,106 @@
+ *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+ 
+    :root {
+      --bg: #0e0e0e;
+      --surface: #161616;
+      --border: #2a2a2a;
+      --accent: #c8f135;
+      --text: #f0f0f0;
+      --muted: #666;
+    }
+ 
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'DM Mono', monospace;
+      min-height: 100vh;
+    }
+ 
+    header {
+  padding: 16px 48px 0;
+  display: flex;
+  flex-direction: column;
+}
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+    
+ 
+    h1 {
+      font-family: 'Syne', sans-serif;
+      font-size: 15px;
+      font-weight: 500;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+ 
+    nav {
+  display: flex;
+  gap: 24px;
+  border-top: 1px solid var(--border);
+  padding-top: 8px;
+  width: 350px;
+}
+ 
+    nav a {
+  text-decoration: none;
+  color: var(--muted);
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding-bottom: 8px;
+}
+ 
+    nav button {
+      background: transparent;
+      border: 1px solid var(--border);
+      color: var(--muted);
+      font-family: 'DM Mono', monospace;
+      font-size: 11px;
+      letter-spacing: 0.08em;
+      padding: 8px 16px;
+      cursor: pointer;
+      transition: border-color 0.15s, color 0.15s;
+    }
+ 
+    nav a:hover {
+  color: var(--accent);
+}
+ 
+    main {
+      padding: 80px 48px;
+  max-width: 640px;
+  text-align: center;
+  margin: 0 auto;
+    }
+ 
+    h2 {
+      font-family: 'Syne', sans-serif;
+      font-size: 20px;
+      font-weight: 400;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 32px;
+    }
+ 
+    p {
+      font-size: 13px;
+      color: var(--muted);
+      line-height: 1.9;
+      margin-bottom: 16px;
+    }
+ 
+    p:first-of-type {
+      font-family: 'Syne', sans-serif;
+      font-size: 24px;
+      font-weight: 500;
+      color: var(--text);
+      line-height: 1.4;
+      margin-bottom: 24px;
+    }
+  

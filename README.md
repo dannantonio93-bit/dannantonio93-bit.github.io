@@ -1,1 +1,1 @@
-https://dannantonio93-bit.github.io/barelygames.github.io/
+https://dannantonio93-bit.github.io/
